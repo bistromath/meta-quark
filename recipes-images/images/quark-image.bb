@@ -1,5 +1,3 @@
-require 
-
 IMAGE_FEATURES += "x11-base qt4-pkgs splash ssh-server-openssh tools-sdk \
                    tools-debug debug-tweaks dev-pkgs \
                    "
@@ -19,3 +17,5 @@ CORE_IMAGE_EXTRA_INSTALL += "\
     directfb-examples \
     xauth \
     "
+
+inherit core-image
