@@ -10,12 +10,12 @@ CORE_IMAGE_EXTRA_INSTALL += "\
     packagegroup-sdr-base-python \
     vlc \
     libv4l \
-    libavcodec54 \
     xinput-calibrator \
-    mesa \
     xserver-xorg-extension-glx \
     directfb-examples \
     xauth \
+    yavta \
+    kernel-dev \
     "
 
 inherit core-image
